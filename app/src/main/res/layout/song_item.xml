@@ -11,7 +11,8 @@
         android:id="@+id/card_view"
         card_view:cardCornerRadius="15dp"
         card_view:cardUseCompatPadding="true"
-        card_view:cardElevation="2dp">
+        card_view:cardElevation="2dp"
+        android:contentDescription="@string/tapToPlay">
 
         <RelativeLayout
             android:layout_width="match_parent"

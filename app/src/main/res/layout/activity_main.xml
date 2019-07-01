@@ -38,25 +38,29 @@
                     android:id="@+id/button_jazz"
                     style="@style/ButtonStyle"
                     android:background="@drawable/jazz"
-                    android:text="@string/jazz" />
+                    android:text="@string/jazz"
+                    android:contentDescription="@string/playJazz" />
 
                 <Button
                     android:id="@+id/button_rock"
                     style="@style/ButtonStyle"
                     android:background="@drawable/rock"
-                    android:text="@string/rock" />
+                    android:text="@string/rock"
+                    android:contentDescription="@string/playRock"/>
 
                 <Button
                     android:id="@+id/button_hiphop"
                     style="@style/ButtonStyle"
                     android:background="@drawable/hiphop"
-                    android:text="@string/hiphop" />
+                    android:text="@string/hiphop"
+                    android:contentDescription="@string/playHiphop" />
 
                 <Button
                     android:id="@+id/button_pop"
                     style="@style/ButtonStyle"
                     android:background="@drawable/pop"
-                    android:text="@string/pop" />
+                    android:text="@string/pop"
+                    android:contentDescription="@string/playPop"/>
 
             </LinearLayout>
         </HorizontalScrollView>

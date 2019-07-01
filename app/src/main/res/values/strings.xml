@@ -13,4 +13,10 @@
     <string name="songAt">Song at position&#160;</string>
     <string name="isPlaying">&#160;is Playing</string>
     <string name="startListeningToMusic">Start Listening to Music</string>
+
+    <string name="playJazz">Tap to play Jazz Music</string>
+    <string name="playRock">Tap to play Rock Music</string>
+    <string name="playHiphop">Tap to play Hiphop Music</string>
+    <string name="playPop">Tap to play Pop Music</string>
+    <string name="tapToPlay">Tap to play Music</string>
 </resources>
