@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+
+    <string name="song_title">Placeholder for Song Title&#160;</string>
+    <string name="song_singer">singer name</string>
+    <string name="song_duration">03:49</string>
+
+    <string name="jazz">Jazz</string>
+    <string name="rock">Rock</string>
+    <string name="hiphop">HipHop</string>
+    <string name="pop">Pop</string>
+
+    <string name="songAt">Song at position&#160;</string>
+    <string name="isPlaying">&#160;is Playing</string>
+    <string name="startListeningToMusic">Start Listening to Music</string>
+</resources>
