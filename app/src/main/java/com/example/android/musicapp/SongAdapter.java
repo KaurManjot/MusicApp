@@ -18,8 +18,8 @@ Adapter class takes the data and creates view for each item in RecyclerView
  */
 public class SongAdapter extends RecyclerView.Adapter<SongAdapter.ViewHolder> {
 
-    List<Song> songsList;
-    Context context;
+    private List<Song> songsList;
+    private Context context;
 
     public SongAdapter(List<Song> songsList) {
         this.songsList = songsList;

@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         jazz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, JazzActivity.class);
-                startActivity(numbersIntent);
+                Intent jazzIntent = new Intent(MainActivity.this, JazzActivity.class);
+                startActivity(jazzIntent);
             }
         });
 
@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the family category is clicked on.
             @Override
             public void onClick(View view) {
-                Intent familyIntent = new Intent(MainActivity.this, RockActivity.class);
-                startActivity(familyIntent);
+                Intent rockIntent = new Intent(MainActivity.this, RockActivity.class);
+                startActivity(rockIntent);
             }
         });
 
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the colors category is clicked on.
             @Override
             public void onClick(View view) {
-                Intent colorsIntent = new Intent(MainActivity.this, HiphopActivity.class);
-                startActivity(colorsIntent);
+                Intent hiphopIntent = new Intent(MainActivity.this, HiphopActivity.class);
+                startActivity(hiphopIntent);
             }
         });
 
@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the phrases category is clicked on.
             @Override
             public void onClick(View view) {
-                Intent phrasesIntent = new Intent(MainActivity.this, PopActivity.class);
-                startActivity(phrasesIntent);
+                Intent popIntent = new Intent(MainActivity.this, PopActivity.class);
+                startActivity(popIntent);
             }
         });
     }
